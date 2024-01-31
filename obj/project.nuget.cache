@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "BCHtbbVwvpBaRyOmEgIQeLs0v+rZTVWYzA26z54LwYOSd28a0+/8OgEp2wW8TsOYQt/X/15D9DV/Ooe4BhonVg==",
+  "dgSpecHash": "l+gyaUPuJ31wiIUm99UMwIWzowShufkK95+q6gvBbZPvn/zaE29AgfdKJOKcErV2F9YOjgOBqwpdQjL611lW+g==",
   "success": true,
   "projectFilePath": "/Users/lasse/Documents/GitHub/FirstDrone/FirstDrone.csproj",
   "expectedPackageFiles": [
-    "/Users/lasse/.nuget/packages/microsoft.aspnetcore.openapi/8.0.1/microsoft.aspnetcore.openapi.8.0.1.nupkg.sha512",
+    "/Users/lasse/.nuget/packages/microsoft.aspnetcore.openapi/7.0.15/microsoft.aspnetcore.openapi.7.0.15.nupkg.sha512",
     "/Users/lasse/.nuget/packages/microsoft.codecoverage/17.8.0/microsoft.codecoverage.17.8.0.nupkg.sha512",
     "/Users/lasse/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/Users/lasse/.nuget/packages/microsoft.net.test.sdk/17.8.0/microsoft.net.test.sdk.17.8.0.nupkg.sha512",

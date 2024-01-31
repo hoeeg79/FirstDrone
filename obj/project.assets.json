@@ -1,19 +1,19 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {
-      "Microsoft.AspNetCore.OpenApi/8.0.1": {
+    "net7.0": {
+      "Microsoft.AspNetCore.OpenApi/7.0.15": {
         "type": "package",
         "dependencies": {
           "Microsoft.OpenApi": "1.4.3"
         },
         "compile": {
-          "lib/net8.0/Microsoft.AspNetCore.OpenApi.dll": {
+          "lib/net7.0/Microsoft.AspNetCore.OpenApi.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net8.0/Microsoft.AspNetCore.OpenApi.dll": {
+          "lib/net7.0/Microsoft.AspNetCore.OpenApi.dll": {
             "related": ".xml"
           }
         },
@@ -451,18 +451,18 @@
     }
   },
   "libraries": {
-    "Microsoft.AspNetCore.OpenApi/8.0.1": {
-      "sha512": "JF0U31SByntKEhZNC8ch3CD87BLZb5AzSujOBppLdvnjYu3W2XZvlsol5hUJfxiaHOp720cUiL6wzG8Bv0fI2Q==",
+    "Microsoft.AspNetCore.OpenApi/7.0.15": {
+      "sha512": "5AnwJuy7lBaoDhos9SYzLxsGO/s8LsAnP1DR0JSUp1zGzBGnHJEgT4IafAk24PnveKgkiVwh77t5+dU652rwxA==",
       "type": "package",
-      "path": "microsoft.aspnetcore.openapi/8.0.1",
+      "path": "microsoft.aspnetcore.openapi/7.0.15",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "THIRD-PARTY-NOTICES.TXT",
-        "lib/net8.0/Microsoft.AspNetCore.OpenApi.dll",
-        "lib/net8.0/Microsoft.AspNetCore.OpenApi.xml",
-        "microsoft.aspnetcore.openapi.8.0.1.nupkg.sha512",
+        "lib/net7.0/Microsoft.AspNetCore.OpenApi.dll",
+        "lib/net7.0/Microsoft.AspNetCore.OpenApi.xml",
+        "microsoft.aspnetcore.openapi.7.0.15.nupkg.sha512",
         "microsoft.aspnetcore.openapi.nuspec"
       ]
     },
@@ -1142,8 +1142,8 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net8.0": [
-      "Microsoft.AspNetCore.OpenApi >= 8.0.1",
+    "net7.0": [
+      "Microsoft.AspNetCore.OpenApi >= 7.0.15",
       "Microsoft.NET.Test.Sdk >= 17.8.0",
       "NUnit >= 4.0.1",
       "Swashbuckle.AspNetCore >= 6.4.0"
@@ -1165,14 +1165,14 @@
         "/Users/lasse/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net8.0"
+        "net7.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "projectReferences": {}
         }
       },
@@ -1183,12 +1183,12 @@
       }
     },
     "frameworks": {
-      "net8.0": {
-        "targetAlias": "net8.0",
+      "net7.0": {
+        "targetAlias": "net7.0",
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
-            "version": "[8.0.1, )"
+            "version": "[7.0.15, )"
           },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
@@ -1222,7 +1222,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/RuntimeIdentifierGraph.json"
       }
     }
   }
